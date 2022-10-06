@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 CSS Intro</title>
+<!--this is an embedded style sheet-->
+    <style>
+       /* This is the comment asset for CSS */
+       /* below we have a grouped selector */
+       P, ul {color:mediumslateblue;
+            font-family:Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+       /* descendeant selector*/
+        p a { color:darkturquoise; }
+        #firstparagraph {
+            color:tomato
+        }
+        .pinktext {
+            color:pink
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.amazon.com">Amazon</a>
+    <!--id values must be unique-->
+    <p id="firstparagraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href=""http://www.google.com">Google</a> </p>
+    <ul>
+        <li>I want to go to bed </li>
+        <li class="pinktext"> I want to get a spray tan </li>
+    </ul>
+    <p> I am so tired I wish I could go back to sleep!</p>
+    <p class="pinktext"> I only have had 4 hours of sleep prior to this class and am ready to go back to bed!</p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+P, ul {color:mediumslateblue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+p a { color:darkturquoise; }
+#firstparagraph {
+    color:tomato
+}
+.pinktext {
+    color:pink
+}
