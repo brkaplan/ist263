@@ -1,0 +1,29 @@
+h1 {color: #00ffff} 
+/*when you use hex color a # is required before the color number */
+/*hex colors are six digits 0-9 or a-f for each digit*/
+a:link {color: #00ffff}
+a:visited {color: #ff00ff}
+/*the above are pseudo selectors, you need the colon after the element then state the name*/
+a:hover {color:#aaaaff;
+        text-decoration-style: wavy;}
+/*you can change any property in CSS in a psuedo selector*/
+
+body {background-color: #344342;
+        background-image: url(/images/betty.png);
+        background-position: center;
+        background-size: 600px, 500px;
+} 
+/*styling the body tag means the entire eb rowser window content area will be affected */
+
+p {
+    background-color: #ffffff;
+    margin: 10px; /* area outside the box */
+    padding: 10px; /* the space around content */
+    border: 5px solid #aaaaff;
+    width: 300px;
+} /*this is a shortcut property with multiple values/*
+
+/* width of the box + the margin x2 + border x2 + padding x2 */
+/* to calculate the area of box = 300 + 20 + 20 + 10 = 350 pixels*/
+
+/*inline text like bolding 
