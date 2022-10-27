@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        div {
+            padding: 10px;}
+
+        .nav1, .nav2, .nav3, .nav4, .social {display: flex;
+        background-color: #000000;
+        color: #ffffff}
+
+
+        .nav1 {
+            justify-content: flex-end;}
+        
+        .nav2 {
+            margin-top: 10px;
+            justify-content:space-between;}
+
+        .nav3 {
+            margin-top: 10px;
+            justify-content:space-around;
+            margin-bottom:10px}
+
+        .parentflexbox {
+            display: flex;
+            background-color:black;
+            justify-content: space-between}
+    </style>
+</head>
+<body>
+    <!--Navigation on the right side-->
+    <div class="nav1">
+    <div>Home</div>
+    <div>Type</div>
+    <div>Color</div>
+    <div>Inspo</div>
+    </div>
+
+    <!--Navigation spaced between-->
+    <div class="nav2">
+        <div>Home</div>
+        <div>Type</div>
+        <div>Color</div>
+        <div>Inspo</div>
+        </div>
+    
+    <!--Navigation spaced around-->
+    <div class="nav3">
+        <div>Home</div>
+        <div>Type</div>
+        <div>Color</div>
+        <div>Inspo</div>
+        </div>
+
+    <!--Nested flexboxes-->
+        <div class="parentflexbox">
+                <div class="nav4">
+                    <div>Home</div>
+                    <div>Type</div>
+                    <div>Color</div>
+                    <div>Inspo</div>
+                </div>
+                <div class="social">
+                    <div>Facebook</div>
+                    <div>Instagram</div>
+                 </div>
+        </div>
+</body>
+</html>
