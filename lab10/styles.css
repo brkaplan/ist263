@@ -27,11 +27,17 @@ a:link {color: #2e2e2e;}
 a:visited {color: #000000;}
 a:hover {color:#b886ff;}
 
+/*index*/
+.bioimage {max-width:100; width: 100%;}
+
 /*contact page*/ 
 .part1 {padding: 20px; margin: 20px}
 .part1 {display: flex;
+    flex-wrap: wrap;
     background-color: #ffffff; 
     border-radius:1em}
+.part1 div {padding: 80px;
+    flex: 1;}
 .address {flex: 1;}
 .contacting {flex: 2;}
 
@@ -39,8 +45,8 @@ a:hover {color:#b886ff;}
         background-color: #ffffff; 
         border-radius: 1em; }
 .part2 {display: flex; align-items: center; justify-content: center;}
-.location {float: left; margin-right: 100px;}
-.form {float: right; margin: 10px;}
+.location {float: left; margin-right: 10px;}
+.form {float: right; margin-left: 10px;}
 .clear {clear:both}
 
 /* footer */ 
