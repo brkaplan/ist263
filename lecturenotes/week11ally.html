@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .skip{
+        background-color: #ffa500;
+        padding: 5px;
+        border: 1px solid black;
+        position: absolute;
+        top: 30px;
+        left: -999px;
+    /*always do 999px to push skip to content off screen. bring it back with a pseudo class*/
+    }
+    .skip:focus {
+    left: 10px;
+    }
+    </style>
+</head>
+<body>
+    <a href="#content" class="skip" tabindex="1"> Skip to Content</a><br> 
+        <a href="http://www.syr.edu" tabindex="2">SU</a> <br>
+        <a href="http://www.googe.com" tabindex="3">Google</a> <br>
+        <a href="http://www.amazon.com"tabindex="4">Amazon</a>
+        <!--tab # says what order accessibility is browsed in-->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, ducimus voluptates? Sequi maiores rem provident facere architecto voluptatum omnis impedit quod voluptate. Earum quasi accusamus vero voluptatem sint eius minus!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, ducimus voluptates? Sequi maiores rem provident facere architecto voluptatum omnis impedit quod voluptate. Earum quasi accusamus vero voluptatem sint eius minus!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, ducimus voluptates? Sequi maiores rem provident facere architecto voluptatum omnis impedit quod voluptate. Earum quasi accusamus vero voluptatem sint eius minus!</p>
+        <p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, molestiae! Delectus at tenetur doloremque magnam
+        nemo. Quasi dolor, mollitia repellat quaerat reiciendis accusamus voluptates obcaecati dolorum fugiat a similique quidem!</p>
+</body>
+</html>
