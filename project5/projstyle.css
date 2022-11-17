@@ -12,8 +12,30 @@ h1 {color: rgb(255, 255, 255);
     margin-top: 10px;
     justify-content:space-around;
      margin-bottom:10px;}
+    
+    nav a {color:white;}
+
+a:link {color: #ffffff;}
+a:visited {color: #ffffff;}
 
 /* Home */
 .center {display: flex;
     justify-content: center;}
+.welcomepic {max-width:100; width: 100%;}
+.homeintro {display: flex;
+    flex-wrap: wrap;
+    margin-inline: 50px;}
+.designis {flex: 1;
+    padding: 20px}
+.checkout {flex: 2;
+    padding: 20px}
+.bigflex {display: flex;}
+.left {flex:1}
+
+
+
+/*Type*/
+.typepic {max-width:100; width: 100%;}
+
+
 

@@ -1,0 +1,16 @@
+h1 {color: #ff0000}
+h1, p {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#fun {color:yellow}
+.yay {color: pink}
+
+a:hover {color:green}
+a:link {color: purple}
+a:visited {color:blue}
+
+.box {
+    margin: 10px;
+    border: cornflowerblue, 3px;
+    color: green;
+    background:yellowgreen
+}
+
