@@ -8,9 +8,7 @@ h1 {color: rgb(255, 255, 255);
     margin-bottom: -20px;}
 
  @media only screen and (max-width: 720px) {
-    span {display: none;}
-    nav a {display: block;
-            max-width:100%;}
+
         }
 
 .navigation {
@@ -31,28 +29,37 @@ a:visited {color: #ffffff;}
 .welcomepic {max-width:100; width: 100%;}
 .homeintro {display: flex;
     flex-wrap: wrap;
-    margin-inline: 50px;}
+    margin-inline: 50px;
+    max-width:100; }
 .designis {flex: 1;
     padding: 20px;
-    text-align: right;}
+    text-align: center;
+    background-color: rgb(226, 34, 130); border-radius: 1em;}
 .checkout {flex: 2;
-    padding: 20px}
+    padding: 20px;
+    text-align: center;}
 .bigflex {display: flex;
     padding: 20px;
-    border: #1eff00 2px solid;
-    max-width:100; }
+    max-width:100%; 
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+}
 .left {
     display: flex;
     flex-direction: column;
-    border: yellow 2px solid;
-    text-align: right;
-    width: 550px;
-    max-width: max-content;}
+    text-align: center;
+    align-content: center;
+    flex: 0 1 auto;
+    flex:1;
+    flex-wrap: wrap;}
 .right {
     display: flex;
+    text-align: center;
     flex-direction: column;
-    border: purple 2px solid;
-    width: 550px;}
+    flex: 0 1 auto;
+    flex:2;
+    align-content: center;
+    flex-wrap: wrap;}
 
 
 
@@ -127,3 +134,41 @@ a:visited {color: #ffffff;}
 .flex4 {display:flex; align-items: center;}
 .img4 {flex:1;}
 .txt4 {flex:1; padding:10px;}
+
+/*inspo*/
+.inspoheading {text-align: center;}
+.inspo1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.inspo2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.inspo3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.inspo6{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.inspo4{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.inspo5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
