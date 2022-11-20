@@ -39,27 +39,26 @@ a:visited {color: #ffffff;}
     padding: 20px;
     text-align: center;}
 .bigflex {display: flex;
-    padding: 20px;
-    max-width:100%; 
-    flex: 0 1 auto;
-    flex-wrap: wrap;
-}
+    padding: 20px;}
+
 .left {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-content: stretch;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
     align-content: center;
-    flex: 0 1 auto;
-    flex:1;
-    flex-wrap: wrap;}
+    text-align: center;}
 .right {
     display: flex;
-    text-align: center;
     flex-direction: column;
-    flex: 0 1 auto;
-    flex:2;
+    align-content: stretch;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
     align-content: center;
-    flex-wrap: wrap;}
+    text-align: center;}
 
 
 
