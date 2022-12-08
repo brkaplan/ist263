@@ -1,14 +1,16 @@
 body {
     background-color: rgb(30, 30, 30);
     color: white;
-    font-family: 'Tahoma';}
+    font-family: 'Raleway'}
 
 h1 {color: rgb(255, 255, 255); 
     font-size: 50pt;
     margin-bottom: -20px;}
 
- @media only screen and (max-width: 720px) {
-
+@media only screen and (max-width: 720px) {
+    span {display: none;}
+    nav a {display: block;
+        max-width:100%;}
         }
 
 .navigation {
@@ -33,11 +35,11 @@ a:visited {color: #ffffff;}
     max-width:100; }
 .designis {flex: 1;
     padding: 20px;
-    text-align: center;
-    background-color: rgb(226, 34, 130); border-radius: 1em;}
+    text-align: center;}
 .checkout {flex: 2;
     padding: 20px;
-    text-align: center;}
+    text-align: center;
+    flex-wrap: wrap;}
 .bigflex {display: flex;
     padding: 20px;}
 
@@ -45,7 +47,6 @@ a:visited {color: #ffffff;}
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    flex-basis: 50%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -54,7 +55,6 @@ a:visited {color: #ffffff;}
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    flex-basis: 50%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -66,39 +66,37 @@ a:visited {color: #ffffff;}
 .typepic {max-width:100; width: 100%;}
 .historyflex {
     display:flex;
-    padding: 30px;
+    flex-wrap: wrap;
 }
 .historytype {
     display: flex;
-    padding-left: 30px;
     align-items: left;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .fontflex{
     display:flex;
-    padding: 30px;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
     
 }
 .fonttype {
-    padding-right: 30px;
     display: flex;
-    padding-left: 30px;
-    align-items: left;
     text-align: right;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .famflex{
     display:flex;
-    padding: 30px;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .famtype {
     display: flex;
-    padding-left: 30px;
     align-items: left;
     flex-direction: column;
     justify-items: center;
@@ -116,7 +114,9 @@ a:visited {color: #ffffff;}
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding-inline: 30px;}
+    padding-inline: 30px;
+    padding: 30px;
+    background-color: rgb(45, 45, 45);}
 
 .flex1 {display:flex; align-items: center;}
 .img1 {flex:1;}
