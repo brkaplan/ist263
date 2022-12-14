@@ -21,13 +21,14 @@ h1 {color: rgb(255, 255, 255);
         height: 100px;}
     .historyflex{flex-direction:row;
         position: static;}}
+
 .navigation {
     display: flex;
     margin-top: 10px;
     justify-content:space-around;
      margin-bottom:10px;}
-    
     nav a {color:white;}
+
 
 a:link {color: #ffffff;}
 a:visited {color: #ffffff;}
@@ -174,3 +175,4 @@ a:visited {color: #ffffff;}
     justify-content: space-around;
     flex-wrap: wrap;
 }
+ 
