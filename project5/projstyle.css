@@ -64,29 +64,11 @@ a:visited {color: #ffffff;}
     flex-direction: column;
     margin:10px;;}
 
-
-/*    .bigflex {display: flex;
-    padding: 20px;
-    max-width: 100;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
+.proud {display:flex;
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;}
-.right {
-    display: flex;
     flex-direction: column;
-    align-content: stretch;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    text-align: center;} */
-
+    align-content: center;}
 
 
 /*Type*/
@@ -98,8 +80,8 @@ a:visited {color: #ffffff;}
 .historytype {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap:wrap;
+    padding-bottom: 10px;
 }
 
 .fontflex{
