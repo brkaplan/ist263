@@ -11,7 +11,13 @@ h1 {color: rgb(255, 255, 255);
     span {display: none;}
     nav a {display: block;
         max-width:100%;}
-        }
+    .type {flex-direction: row;
+        position: static;
+        height: 100px;} 
+    .color {flex-direction: row;
+        position: static;
+        height: 100px;} }
+    
 
 .navigation {
     display: flex;
@@ -32,7 +38,8 @@ a:visited {color: #ffffff;}
 .homeintro {display: flex;
     flex-wrap: wrap;
     margin-inline: 50px;
-    max-width:100; }
+    max-width:100;
+    width: 100%; }
 .designis {flex: 1;
     padding: 20px;
     text-align: center;}
@@ -40,8 +47,25 @@ a:visited {color: #ffffff;}
     padding: 20px;
     text-align: center;
     flex-wrap: wrap;}
-.bigflex {display: flex;
+    
+.type {display:flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap:wrap;}
+.chrome {display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;}
+.abc {display:flex; 
+    align-items: center;
+    flex-direction: column;
+    margin:10px;;}
+
+
+/*    .bigflex {display: flex;
     padding: 20px;
+    max-width: 100;
 }
 
 .left {
@@ -59,7 +83,7 @@ a:visited {color: #ffffff;}
     justify-content: center;
     align-items: center;
     align-content: center;
-    text-align: center;}
+    text-align: center;} */
 
 
 
