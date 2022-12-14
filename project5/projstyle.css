@@ -3,6 +3,9 @@ body {
     color: white;
     font-family: 'Raleway'}
 
+footer {position:absolute;
+    width:100%;}
+
 h1 {color: rgb(255, 255, 255); 
     font-size: 50pt;
     margin-bottom: -20px;}
@@ -16,9 +19,9 @@ h1 {color: rgb(255, 255, 255);
         height: 100px;} 
     .color {flex-direction: row;
         position: static;
-        height: 100px;} }
-    
-
+        height: 100px;}
+    .historyflex{flex-direction:row;
+        position: static;}}
 .navigation {
     display: flex;
     margin-top: 10px;
@@ -95,10 +98,9 @@ a:visited {color: #ffffff;}
 }
 .historytype {
     display: flex;
-    align-items: left;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 20px;
+    flex-wrap:wrap;
 }
 
 .fontflex{
