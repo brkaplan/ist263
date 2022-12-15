@@ -31,17 +31,22 @@ a:visited {color: #ffffff;}
 /* Home */
 .welcomepic {max-width:100; width: 100%;}
 .homeintro {display: flex;
+    background-color: rgb(45, 45, 45);
+    margin:10px;
+    flex-direction: column;
     flex-wrap: wrap;
-    margin-inline: 50px;
-    max-width:100;
-    width: 100%; }
-.designis {flex: 1;
-    padding: 20px;
+    max-width:100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;}
+.designis {display: flex;
+    flex-direction: column;
+    flex:1;
     text-align: center;}
-.checkout {flex: 2;
-    padding: 20px;
-    text-align: center;
-    flex-wrap: wrap;}
+.checkout {display: flex;
+    align-content: center;
+    flex:2;
+    justify-content: center;}
     
 .type {display:flex;
     flex-direction: row;
@@ -51,9 +56,11 @@ a:visited {color: #ffffff;}
 .chrome {display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin:10px;}
 .abc {display:flex; 
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin:10px;;}
 
@@ -67,7 +74,7 @@ a:visited {color: #ffffff;}
 
 /*Type*/
 .typepic {max-width:100; width: 100%;}
-
+.grey {padding:20px; background-color: rgb(45, 45, 45);}
 .historyflex {
     display: flex;
     flex-direction: row;
@@ -141,7 +148,8 @@ a:visited {color: #ffffff;}
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
-    padding:10px;
+    padding:30px;
+    background-color: rgb(45, 45, 45)
             }
             
 .colorblur {display:flex;
@@ -160,7 +168,6 @@ a:visited {color: #ffffff;}
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(45, 45, 45);
     padding:10px;
     justify-content: space-around;}
 
@@ -254,9 +261,12 @@ a:visited {color: #ffffff;}
 
 
 /*inspo*/
-.inspoheading {text-align: center;}
+.inspoheading {text-align: center;
+    padding:10px;
+background-color: rgb(45, 45, 45)}
  
 .gallery {display:flex;
+    padding:10px;
     align-content: center;
     flex-wrap:wrap;
     align-items:center;
