@@ -74,7 +74,8 @@ a:visited {color: #ffffff;}
 
 /*Type*/
 .typepic {max-width:100; width: 100%;}
-.grey {padding:20px; background-color: rgb(45, 45, 45);}
+.grey {padding:20px; background-color: rgb(45, 45, 45);
+    text-align: center;}
 .historyflex {
     display: flex;
     flex-direction: row;
