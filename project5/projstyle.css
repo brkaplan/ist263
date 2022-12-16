@@ -161,7 +161,6 @@ a:visited {color: #ffffff;}
     max-width: 100%;
     justify-content: center;
     padding:30px;
-    background-color: rgb(45, 45, 45)
             }
             
 .colorblur {display:flex;
@@ -175,13 +174,14 @@ a:visited {color: #ffffff;}
     flex-basis:50%;
     text-align:left;
     justify-content: center;
-    margin:20px;}
+    padding: 20px;}
 .values {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding:10px;
-    justify-content: space-around;}
+    padding:12px;
+    justify-content: space-around;
+    background-color: rgb(45, 45, 45)}
 
 .flex1 {
     display: flex;
